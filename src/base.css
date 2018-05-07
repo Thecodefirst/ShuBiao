@@ -1,0 +1,373 @@
+body {
+    -webkit-tap-highlight-color: rgba(255,0,0,0);
+    font-size: 0.2rem;
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei" ! important;
+    background: #fff;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+div, input, button, textarea, span, small, big, p, applet, object, iframe, h1, h2, h3, h4, h5, h6, a, em, font, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, caption, tbody, tfoot, thead, tr, th, td, section, article, header, footer, aside, nav {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+section, article, header, footer, aside, nav {
+    padding: 0;
+    margin: 0;
+    display: block
+}
+
+input, select, button, textarea {
+    outline: none;
+    border: none;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1
+}
+
+input[type="button"], input[type="submit"], input[type="reset"], button {
+    -webkit-appearance: none;
+    cursor: pointer
+}
+
+img {
+    border: none
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.colorGrice {
+  background: #E4E7ED;
+}
+
+[v-cloak] { display: none !important; }
+
+.overFlow {
+  overflow: hidden;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.imgCom {
+    width: 100%;
+    height: 100%;
+}
+.addCSSover {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+/*
+search
+*/
+.search {
+    margin-top: 22px;
+    width: 240px;
+    height: 36px;
+}
+.search .el-input__inner {
+    border-radius: 50px;
+    height: 36px;
+}
+.tabSearch .el-input__inner {
+  border-radius: 50px;
+}
+.el-input__icon {
+  line-height: 36px;
+}
+.search .el-input__icon {
+  line-height: 38px;
+}
+/*
+search
+*/
+/*
+personal
+*/
+.personal {
+    margin-top: 22px;
+    margin-left: 20px;
+    width: 36px;
+    height: 36px;
+}
+/*
+personal
+*/
+/*
+footer
+*/
+.footer {
+  background: #1e2b40;
+  padding: 30px 0;
+}
+.footer-w1024px {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1200px;
+}
+/*
+    footer
+*/
+/*
+    shade
+*/
+.shade {
+    z-index: 2000;
+    position: fixed;
+    background: #000;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+}
+/*
+    shade
+*/
+/*
+    login
+*/
+.alert-login {
+    text-align: center;
+    z-index: 2001;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 5px;
+    background: #fff;
+    width: 440px;
+    height: 620px;
+}
+.alert-nav {
+    display: inline-block;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.alert-nav li {
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    color: #aaa;
+}
+.alertActive {
+    color: #00bffe !important;
+}
+.inputValue {
+    margin-top: 40px;
+}
+.inputValue .el-input__inner {
+    /*border: 1px solid #ddd;*/
+    margin-bottom: 10px;
+    height: 50px;
+    width: 340px;
+}
+.checked-input {
+    overflow: hidden;
+  margin: 5px auto 15px;
+  width: 340px;
+}
+.checked-input .el-checkbox {
+    float: left;
+}
+.checked-input .compact {
+    font-size: 14px;
+    color: #00bffe;
+}
+.compact {
+    cursor: pointer;
+}
+.checked-input .el-checkbox__input.is-checked+.el-checkbox__label {
+    color: #aaa;
+}
+.checked-input .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background: #00bffe;
+    border-color: #00bffe;
+}
+.submitBtn .el-button {
+    width: 340px;
+    height: 50px;
+}
+.error-tip {
+    margin-top: 22px;
+    margin-bottom: 15px;
+    color: #ff4109;
+    font-size: 14px;
+}
+.mesCode .el-input__inner{
+    width: 218px;
+}
+.mesCode span {
+    display: inline-block;
+}
+.mesCode .el-button {
+    margin-left: 10px;
+    width: 110px;
+    height: 50px;
+}
+.mesCode .el-button--primary.is-disabled, .el-button--primary.is-disabled:active, .el-button--primary.is-disabled:focus, .el-button--primary.is-disabled:hover {
+    background: #eee;
+    border-color: #eee;
+}
+.mesCode span {
+    /*color: #aaa;*/
+}
+.coloraaa {
+    color: #aaa !important;
+}
+.getBack {
+    margin-top: 40px;
+    font-size: 24px;
+    color: #333;
+}
+.marginTop40 {
+    margin-top: 40px;
+}
+.forgetTips {
+    margin: 0 auto 48px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 14px;
+    color: #aaa;
+    width: 340px;
+}
+.goRegister {
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+.searchNavList .el-input__inner {
+  margin-right: 10px;
+  width: 200px;
+  height: 26px;
+}
+.name_tel li .el-input__inner {
+  height: 50px;
+}
+
+.policyR .el-input__inner{
+  border-radius: 50px;
+  width: 340px;
+  height: 36px;
+}
+.policyR .el-input__icon {
+  line-height: 36px;
+}
+.match .el-input__inner {
+  width: 100px;
+  height: 30px;
+}
+.second-dataList .el-checkbox__label {
+  display: none;
+}
+.matchListGroup .el-checkbox {
+  padding-top: 1px;
+  padding-right: 3px;
+}
+.matchListGroup .el-checkbox__label {
+  display: none;
+}
+.comwidth340px  .el-input__inner {
+  height: 50px;
+}
+.tenderInputUpdate .el-input .el-input__inner {
+  border-radius: 50px;
+  width: 340px;
+  height: 36px;
+}
+.alert-noticeInfo .el-dialog {
+  width: 420px !important;
+  height: 200px;
+}
+.alert-noticeInfo .el-dialog__header {
+  padding-top: 40px;
+  text-align: center;
+}
+.activityClass {
+  transition: .5s;
+  margin-bottom: 16px !important;
+  padding: 2px 5px;
+  border-radius: 5px;
+  background: #00bffe;
+  color: #fff !important;
+}
+.chooseLi .el-checkbox__label {
+  line-height: 12px !important;
+}
+.chooseLi .el-checkbox {
+  vertical-align: middle;
+}
+.chooseLi .el-checkbox__input {
+  line-height: 2 !important;
+}
+.addSpanList .el-input__inner {
+  height: 50px !important;
+}
+.noDBClass {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 1200px;
+  height: 500px;
+}
+.alertCSS {
+  overflow-y: scroll;
+  height: 700px;
+}
+.el-message-box {
+  width: 900px !important;
+}
+.beta {
+  position: relative;
+  border-radius: 5px;
+  padding: 20px;
+  color: #fff;
+  background: #5a5e66;
+}
+.beta p:first-child {
+  font-size: 16px;
+}
+.beta p {
+  margin-bottom: 10px;
+}
+.beatPic {
+  right: -20px;
+  top: 0;
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+/* 可以设置不同的进入和离开动画 */
+/* 设置持续时间和动画函数 */
+/*.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+  !* .slide-fade-leave-active for below version 2.1.8 *! {
+  transform: translateX(-200px);
+  opacity: 0;
+}*/
+.input-areaList .el-input__inner {
+  font-size: 15px !important;
+}
+.searchNavList  .el-input__inner {
+  font-size: 15px !important;
+}

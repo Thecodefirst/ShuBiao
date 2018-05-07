@@ -1,0 +1,110 @@
+//相当于数据库
+export const state = {
+ 
+  bannerCP:'',
+  isSearch:true,
+  isLogin:false,
+  userDB:{
+    userId:'',
+    userName:'',
+  },
+  noticeDB:{
+    noticeInfo:[
+      {
+        id:'',
+        name:'',
+        status:'',
+      }
+    ],
+    noticeList:[],
+  },
+  NoticeInfoDB:{
+    noticeInfo:[
+      {
+        id:'',
+        name:'',
+        status:'',
+      }
+    ],
+  },
+  /*招标ID*/
+  noticeInfoID:'',
+  matchList:'',
+  personalCenterDB:'',
+  navList:[
+   /* {
+      name:'产品介绍',
+      value:'0',
+      linked:'/bottomCenter/Products',
+    },*/
+    {
+      name:'联系我们',
+      value:'1',
+      linked:'/bottomCenter/contactUs',
+    },
+  ],
+  navList1:[
+    {
+      name:'法律声明',
+      value:'2',
+      linked:'/bottomCenter/LegalNotices',
+    },
+    {
+      name:'服务条例',
+      value:'3',
+      linked:'/bottomCenter/serviceRegulation',
+    },
+  ],
+  navListTitle:[
+    {
+      cn:'关于我们',
+      en:'About us'
+    },
+    {
+      cn:'版权声明',
+      en:'Copyright statement'
+    },
+  ],
+  navIndex:'',
+  lookReport:'',
+  navListIndex:'1',
+  requestPro:0,
+  showDrawOFF:false,
+  searchObject:{
+    total:'0',
+    count:'20',
+    search:'',
+    time:'',
+    address:'',
+    city:'',
+    county:'',
+    infoType:'0',
+    infoTypeMin:'',
+    industry:'',
+    industryMin:'',
+    userId:'',
+  },
+  policyObject:{
+    total:'0',
+    count:'20',
+    search:'',
+    time:'',
+    policyType:'',
+    infoType:'',
+    infoTypeMin:'',
+    industry:'',
+    userId:'',
+  },
+  companyOptionsDB:'',
+  companyOptions:'',
+
+  indexData:'',
+  indexTableList:'',
+  indexTableListPI:'',
+  fullscreenLoading:false,
+
+  notieTitle:false,
+
+  firmList:'',
+  noticeIntroduction:'',
+}
